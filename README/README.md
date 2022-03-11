@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the `ansible-playbookelk.yml` file may be used to install only certain pieces of it, such as Filebeat.
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -45,7 +45,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name       | Publicly Accessible | Allowed IP Address     |
 |------------|---------------------|------------------------|
-| Jump Box   | Yes                 | 10.0.0.4, 47.41.28.251 |
+| Jump Box   | Yes                 | 10.0.0.0/24, 47.41.28.251 |
 | Elk Server | Yes                 | 47.41.28.251           |
 | Web1       | Yes                 | 47.41.28.251           |
 | Web2       | Yes                 | 47.41.28.251           |
